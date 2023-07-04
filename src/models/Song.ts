@@ -15,6 +15,7 @@ const songsSchema = new mongoose.Schema({
     singer:
     {
         type :schema.Types.ObjectId,
+        ref:"singer",
         required:true
     }
 })
